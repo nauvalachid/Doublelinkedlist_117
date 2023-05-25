@@ -53,3 +53,6 @@ void Doublelinkedlist::addNode() {
 		START = newNode; //step 6
 		return;
 	}
+
+	/*Inserting a Node Between Two Nodes in the list*/
+	Node* current = START; // step1.a
