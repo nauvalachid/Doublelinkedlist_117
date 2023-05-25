@@ -8,7 +8,7 @@ public:
 	string name;
 	Node* next;
 	Node* prev;
-}; 
+};
 
 class Doublelinkedlist {
 private:
@@ -58,3 +58,7 @@ void Doublelinkedlist::addNode() {
 	Node* current = START; // step1.a
 	Node* previous = NULL; // step 1.b
 	while (current->next != NULL && current->next->noMhs < nim) //step 1.c
+	{
+		previous = current; //step 1.d
+		current = current->next; //step 1.e
+	}
