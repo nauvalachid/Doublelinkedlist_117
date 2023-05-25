@@ -89,4 +89,4 @@ bool Doublelinkedlist::deleteNode(int rollNo) {
 		Node* previous, * current;
 		previous = current = NULL;
 		if (search(rollNo, &previous, &current) == false)
-			return false //step 1
+			return false; //step 1
