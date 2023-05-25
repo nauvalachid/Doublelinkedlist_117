@@ -8,4 +8,4 @@ public:
 	string name;
 	Node* next;
 	Node* prev;
-};
+}; 
