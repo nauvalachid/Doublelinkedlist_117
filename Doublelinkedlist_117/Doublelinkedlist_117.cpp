@@ -24,3 +24,7 @@ public:
 	void hapus();
 	void searchData();
 };
+
+Doublelinkedlist::Doublelinkedlist() {
+	START = NULL;
+}
