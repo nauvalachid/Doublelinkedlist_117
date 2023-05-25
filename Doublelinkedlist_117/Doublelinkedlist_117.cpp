@@ -72,3 +72,4 @@ void Doublelinkedlist::addNode() {
 	newNode->prev = current; //step 5
 	if (current->next != NULL)
 		current->next->prev = newNode; //step 6
+	current->next = newNode; //step 7
